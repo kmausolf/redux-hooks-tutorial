@@ -1,6 +1,6 @@
 import store from "./redux/store";
 import { Provider } from "react-redux";
-import MainScreen from "./components/mainScreen";
+import MainScreen from "./features/pokemon/mainScreen";
 
 function App() {
   return (

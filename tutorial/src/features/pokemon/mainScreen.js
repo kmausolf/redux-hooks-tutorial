@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { addPokemon } from "../redux/pokemonSlice";
+import { addPokemon } from "./pokemonSlice";
 import Pokemon from "./pokemon";
 
 const charmander = {
